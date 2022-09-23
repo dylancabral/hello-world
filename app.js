@@ -36,6 +36,15 @@ function greetUser(){
 
 greetUser();
 
+function guessAge(){
+    let usersGuess = prompt('what age did i start listing to heavy music?');
+    
+    while (usersGuess !== '12'){
+      usersGuess = prompt('Wrong! Guess again, I was younger than 15');
+    }
+  }
+  guessAge();
+
 // document.write('Hi ' + usersName + ' I appreciate you stopping by.')
 
 // document.write(userName + " I appreciate you stopping by")
@@ -56,6 +65,14 @@ greetUser();
 // //         };
 // // }
 
-// let bands = prompt("How many new bands do you want to hear about")
-//     console.log(i)
-//     document.write("<img class=loop-images src='' alt='aletrnate text'>")
+function rateMyPage(){
+    let rating = prompt("how many horns would you give my page")
+    console.log(rating)
+
+    for ( let i = 0; i < 3; i++) {
+        console.log(i)
+        document.write('<img src="./pictures/pngwing.png" alt="rock on horns" style="width:5%;height:auto;"/>'); 
+    }
+}
+//         loop-images src="pictures/pngwing.png" alt="aletrnate text">'}
+// }
